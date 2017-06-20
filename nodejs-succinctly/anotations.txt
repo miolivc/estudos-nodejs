@@ -1,0 +1,14 @@
+* Node.js is an orientado a eventos, single-thread e a entrada e saída(I/O) não é bloqueante;
+
+* orientacao a eventos: o fluxo de ações é determinado de forma externa (solicitações recebidas);
+
+* todas as aplicações rodam em uma única thread;
+
+* objetos globais e funcoes do nodejs: 
+	__dirname: nome da pasta que o arquivo que está sendo executado está
+	__filename: o arquivo que está sendo executado
+	console: saída de sistema 
+	module: referencia o modulo atual
+	require(): importa um módulo
+
+* EventEmitter: é um modulo que disponibilizam funcionalidades para implementar um observer

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>Testing WebSocket on Node.js</title>
+		<script src="/socket.io/socket.io.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			const socket = io.connect("http://localhost:8080")
+			socket.emit("hello-client", {message:"I am a Client!"})
+			socket.on("hello-server", data => document.write(data.message).innerHTML())
+		</script>
+	</body>
+</html>

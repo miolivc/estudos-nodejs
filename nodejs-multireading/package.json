@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-multireading",
+  "version": "1.0.0",
+  "description": "Threads em node",
+  "main": "nodejs-worker-thread.js",
+  "dependencies": {
+    "webworker-threads": "^0.7.11",
+    "worker-thread": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "miolivc@outlook.com",
+  "license": "ISC"
+}

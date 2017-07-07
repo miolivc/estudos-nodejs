@@ -1,4 +1,4 @@
-* Node.js is an orientado a eventos, single-thread e a entrada e saída(I/O) não é bloqueante;
+* Node.js é orientado a eventos, single-thread e a entrada e saída(I/O) não é bloqueante;
 
 * orientacao a eventos: o fluxo de ações é determinado de forma externa (solicitações recebidas);
 
@@ -12,3 +12,5 @@
 	require(): importa um módulo
 
 * EventEmitter: é um modulo que disponibilizam funcionalidades para implementar um observer
+
+* A especificação WebSocket define uma API que estabelece conexões de "soquete" entre um navegador da web e um servidor. Em outras palavras, há uma conexão persistente entre o cliente e o servidor e ambas as partes podem começar a enviar dados a qualquer momento.

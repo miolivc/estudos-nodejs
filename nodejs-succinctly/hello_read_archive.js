@@ -12,9 +12,13 @@ const server = http.createServer((request, response) => {
 	 */
 
 	// Essa funcao recebe um callback com 2 parametros
-	fs.readFile("./hello.html", (err, file) => {
+	fs.readFileSync("./hello.html", (err, file) => {
 		response.end(file)
+		//setTimeout(() => response.end(file), 1000)
 	})
+
+	// const file = fs.readFileSync("./hello.html")
+	// setTimeout(() => response.end(file), 1000)
 })
 
 server.listen(8080)
